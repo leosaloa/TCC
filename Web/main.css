@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    margin: 5px 5px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.container{
+
+    max-width: 100%;
+    background-color: rgb(123, 235, 250);
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+hr{
+    width: 95%;
+    border-color: black;
+
+}
+
+p{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bajuda{
+    position: relative;
+    float: left;
+    margin: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000000;
+    width: 100px;
+    height: 22px;
+    border-radius: 17px
+}
+
+.bot{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000000;
+    width: 130px;
+    height: 22px;
+    border-radius: 17px;
+}
+
+.img{
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+}
+
+.img img{
+    max-width: 500px;   /* Máximo da largura da imagem */
+    width: 100%;
+    max-height: 350px;  /* Máximo da altura da imagem */
+    min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+
+
