@@ -8,7 +8,7 @@ body{
  /* Largura */ 
 .container{
     max-width: 100%;
-    background-color: rgb(199, 248, 255);
+    background-color: #c7f8ff;
 
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 hr{
     width: 95%;
-    border-color: black;
+    border-color: #000;
 
 }
 
