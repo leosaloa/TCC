@@ -1,0 +1,38 @@
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family:'Comfortaa', cursive;
+    font-size: 16px;
+}
+
+textarea{
+    height: 150px;
+}
+
+.bot{
+    margin: 10px 0px 0px 0px;
+    color: #fff;  
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #818181;
+    height: 30px;
+    border-radius: 17px;
+ }

@@ -8,7 +8,7 @@ body{
  /* Largura */ 
 .container{
     max-width: 100%;
-    background-color: rgb(123, 235, 250);
+    background-color: rgb(199, 248, 255);
 
 }
 
@@ -25,32 +25,25 @@ hr{
 }
 
 p{
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    color: #fff;  
     font-size: 18px;
     font-weight: bold;
+    background-color: #818181;
+    height: 22px;
+    border-radius: 17px;
+    width: 120px;
 }
 
 .bajuda{
     position: relative;
     float: left;
     margin: 5px 35px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #000000;
-    width: 100px;
-    height: 22px;
-    border-radius: 17px
-}
-
-.bot{
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #000000;
-    width: 130px;
-    height: 22px;
-    border-radius: 17px;
 }
 
 .img{
