@@ -3,33 +3,26 @@ body{
     text-align: center;
     margin: 5px 5px;
     font-family: 'Comfortaa', cursive;
-
-}
- /* Largura */ 
-.container{
-    max-width: 100%;
     background-color: #c7f8ff;
-
 }
-
+/*Titulo*/
 h1 {
     font-size: 60px;
     font-weight: bold;
     padding: 30px 0px 0px 0px;
 }
-
+/*Linha abaixo do titulo*/
 hr{
     width: 95%;
     border-color: #000;
-
 }
-
+/*Formatação de paragrafos*/
 p{
-    margin: 10px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
     font-size: 20px;
     font-weight: bold;
 }
-
+/*Todos os botoes*/
 button{
     color: #fff;  
     font-size: 18px;
@@ -39,13 +32,19 @@ button{
     border-radius: 17px;
     width: 120px;
 }
-
+/*Posição botoes voltar*/
+.bvoltar{
+    position: relative;
+    float: right;
+    margin: 20px 50px 0px 0px;
+}
+/*Posição botao ajuda*/
 .bajuda{
     position: relative;
     float: left;
     margin: 5px 35px;
 }
-
+/*Imagem tela inicial*/
 .img{
     max-width: 1080px;
     width: 100%;
@@ -55,11 +54,9 @@ button{
 .img img{
     max-width: 500px;   /* Máximo da largura da imagem */
     width: 100%;
-    max-height: 350px;  /* Máximo da altura da imagem */
+    max-height: 450px;  /* Máximo da altura da imagem */
     min-height: auto;      /* Mínimo da altura, por padrão “auto” */
     background-size:100%;
     background-repeat: no-repeat;
 }
-
-
 
