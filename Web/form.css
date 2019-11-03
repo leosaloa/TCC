@@ -36,4 +36,5 @@ textarea{
     background-color: #818181;
     height: 30px;
     border-radius: 17px;
+    cursor: pointer;
  }
