@@ -1,0 +1,90 @@
+/* botao formulario */
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #333;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.form-contact-button:hover {
+	background-color: #111;
+}
+
+/* botao alfabeto home */
+.principal-button {
+    width: 30%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 40px;
+    margin-left: 35%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: #333;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    font-family: "Comfortaa", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+.principal-button:hover {
+	background-color: #111;
+}
+
+
+/* botao voltar alfabeto */
+.alfabeto-button {
+    width: 30%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 40px;
+    margin-left: 35%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #333;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    font-family: "Comfortaa", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.alfabeto-button:hover {
+    background-color: #111;
+}
+#espaco {
+    position: relative;
+    float: right;
+    width: 12%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 40px;
+    margin: -35px 13px 0px 0px;
+    cursor: pointer;
+    background: #333;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    font-family: "Comfortaa", sans-serif;
+}

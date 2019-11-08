@@ -1,0 +1,25 @@
+﻿/*imagens alfabeto portugues*/
+.alfabetop {
+  	max-width: 100%;
+  	margin: 1px auto;
+  	text-align: center;
+  	padding: 10px;
+}
+
+/*imagens alfabeto libras*/
+#alfabetol {
+  	max-width: 100%;
+  	margin: 1px auto;
+  	text-align: center;
+  	padding: 10px;
+}
+
+/*Onde tera que aparecer a tradução*/
+#area {
+    margin: 20px 300px 40px 0px;
+    width: 99%;
+    height: 120px;
+    border: 3px solid; 
+    border-color: #818181; 
+    background: #fff;
+}

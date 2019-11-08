@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+            <!-- metas tag do projeto -->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+            <title>My Libras App</title> 
+
+            <!-- fonte do projeto -->
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+            <!-- folhas de estilo do projeto -->
+            <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+            <link rel="stylesheet" type="text/css" href="../_css/botoes.css">
+            <link rel="stylesheet" type="text/css" href="../_css/menu.css">
+            <link rel="stylesheet" type="text/css" href="../_css/alfabeto.css">
+    </head>
+    <body>
+        <!-- container principal do site -->
+        <div class="container">
+
+            <!-- menu-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item" id="active"><a href="../index.html" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="../_pages/novidades.html" title="Novidades">Novidades</a></li>
+                    <li class="nav-item"><a href="../_pages/instrucao.html" title="Instrução">Instrução</a></li>
+                    <li class="nav-item"><a href="../_pages/contato.html" title="Contato">Contato</a></li>
+                    <li class="nav-item"><a href="../_pages/suporte.html" title="Suporte">Suporte</a></li>
+                </ul>
+            </nav><!-- fim menu-->
+            <div id="area">
+            </div>
+            <div>
+                    <button id="espaco" onclick="espaco()">Espaço</button>  
+            </div>
+            <!-- alfabeto libras -->
+            <div id="alfabetol">
+                <br><br>
+                <img id="l" src="../_img/alfabeto_l/a-l.png" alt="letra-a" title="letra-a" onclick="letraAL()">
+                <img id="l" src="../_img/alfabeto_l/b-l.png" alt="letra-b" title="letra-b" onclick="letraBL()">
+                <img id="l" src="../_img/alfabeto_l/c-l.png" alt="letra-c" title="letra-c" onclick="letraCL()">
+                <img id="d-l" src="../_img/alfabeto_l/d-l.png" alt="letra-d" title="letra-d" onclick="letraDL()">
+                <img id="e-l" src="../_img/alfabeto_l/e-l.png" alt="letra-e" title="letra-e" onclick="letraEL()"><br>
+                <img id="f-l" src="../_img/alfabeto_l/f-l.png" alt="letra-f" title="letra-f" onclick="letraFL()">
+                <img id="g-l" src="../_img/alfabeto_l/g-l.png" alt="letra-g" title="letra-g" onclick="letraGL()">
+                <img id="h-l" src="../_img/alfabeto_l/h-l.png" alt="letra-h" title="letra-h" onclick="letraHL()">
+                <img id="i-l" src="../_img/alfabeto_l/i-l.png" alt="letra-i" title="letra-i" onclick="letraIL()">
+                <img id="j-l" src="../_img/alfabeto_l/j-l.png" alt="letra-j" title="letra-j" onclick="letraJL()"><br>
+                <img id="k-l" src="../_img/alfabeto_l/k-l.png" alt="letra-k" title="letra-k" onclick="letraKL()">
+                <img id="l-l" src="../_img/alfabeto_l/l-l.png" alt="letra-l" title="letra-l" onclick="letraLL()">
+                <img id="m-l" src="../_img/alfabeto_l/m-l.png" alt="letra-m" title="letra-m" onclick="letraML()">
+                <img id="n-l" src="../_img/alfabeto_l/n-l.png" alt="letra-n" title="letra-n" onclick="letraNL()">
+                <img id="o-l" src="../_img/alfabeto_l/o-l.png" alt="letra-o" title="letra-o" onclick="letraOL()"><br>
+                <img id="p-l" src="../_img/alfabeto_l/p-l.png" alt="letra-p" title="letra-p" onclick="letraPL()">
+                <img id="q-l" src="../_img/alfabeto_l/q-l.png" alt="letra-q" title="letra-q" onclick="letraQL()">
+                <img id="r-l" src="../_img/alfabeto_l/r-l.png" alt="letra-r" title="letra-r" onclick="letraRL()">
+                <img id="s-l" src="../_img/alfabeto_l/s-l.png" alt="letra-s" title="letra-s" onclick="letraSL()">
+                <img id="t-l" src="../_img/alfabeto_l/t-l.png" alt="letra-t" title="letra-t" onclick="letraTL()"><br>
+                <img id="u-l" src="../_img/alfabeto_l/u-l.png" alt="letra-u" title="letra-u" onclick="letraUL()">
+                <img id="v-l" src="../_img/alfabeto_l/v-l.png" alt="letra-v" title="letra-v" onclick="letraVL()">
+                <img id="w-l" src="../_img/alfabeto_l/w-l.png" alt="letra-w" title="letra-w" onclick="letraWL()">
+                <img id="x-l" src="../_img/alfabeto_l/x-l.png" alt="letra-x" title="letra-x" onclick="letraXL()">
+                <img id="y-l" src="../_img/alfabeto_l/y-l.png" alt="letra-y" title="letra-y" onclick="letraYL()">
+                <img id="z-l" src="../_img/alfabeto_l/z-l.png" alt="letra-z" title="letra-z" onclick="letraZL()">
+            </div> <!-- fim alfabeto libras-->
+
+            <!-- botao voltar ao home-->
+            <div class="botoes">
+                <a href="../index.html"><button class="alfabeto-button">Voltar</button></a><!-- fim botao voltar ao home-->
+            </div> <!-- fim botao voltar ao home-->
+        </div><!--fim do container-->
+
+        <!-- script do site -->
+        <script src="../_js/menuresponsivo.js"></script>  
+        <script src="../_js/traducaoL.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!-- metas tag do projeto -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>My Libras App</title> 
+
+        <!-- fonte do projeto -->
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+        <!-- folhas de estilo do projeto -->
+        <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../_css/botoes.css">
+        <link rel="stylesheet" type="text/css" href="../_css/menu.css">
+        <link rel="stylesheet" type="text/css" href="../_css/formulario.css">
+              
+    </head>
+    <body>
+    <!-- container principal do site -->
+        <div class="container">
+
+            <!-- menu-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="../_pages/novidades.html" title="Novidades">Novidades</a></li>
+                    <li class="nav-item"><a href="../_pages/instrucao.html" title="Instrução">Instrução</a></li>
+                    <li class="nav-item"><a href="../_pages/contato.html" title="Contato">Contato</a></li>
+                    <li class="nav-item" id="active"><a href="../_pages/suporte.html" title="Suporte">Suporte</a></li>
+                </ul>
+            </nav>
+            <!-- fim do menu-->
+
+            <!-- seção formulario de contato -->
+            <section id="principal">
+                    <p>Olá seja bem-vindo a nossa área de suporte, caso tenha encontrado algum erro, falha ou tenha tido algum problema com o sistema, preencha o formulário abaixo com os dados solicitados e aguarde.</p>
+
+                <!-- container formulario de contato -->    
+                <div class="container-form"> 
+
+                    <!-- formulario de contato -->
+                    <form class="form-contact" method="POST" action="./email.php">
+                        <input type="text" class="form-contact-input" name="name" placeholder="Nome">
+                        <input type="email" class="form-contact-input" name="email" placeholder="Email">
+                        <textarea class="form-contact-textarea" name="msg" placeholder="Deixe sua mensagem aqui."></textarea>
+                        <button type="submit" class="form-contact-button">Enviar</button>
+                    </form><!-- formulario de contato -->
+
+                    <!-- botao voltar ao home -->
+                    <a href="../index.html">
+                        <button class="form-contact-button">Voltar</button>
+                    </a><!-- botao voltar ao home -->
+                </div><!-- fim container formulario de contato -->   
+            </section> <!-- fim seção formulario de contato -->                
+        </div><!--fim container principal do site-->
+
+        <!-- script do site -->
+        <script src="../_js/menuresponsivo.js"></script>
+        <script src="ajuda.js"></script>     
+    </body>
+</html>

@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-    <title>My Libras App - Home</title>
-   
-</head>
-<body>
-    <!-- Cabeçalho-->
-    <div>
-        <h1>My Libras App</h1>
-    </div>
-    <hr>
-    <!--Botões-->
-    <a href="./ajuda.html">    
-        <button class="bajuda">Ajuda</button><br><br>   
-    </a>
-    
-        <p>Escolha uma Língua</p>     
+    <head>
+        <!-- metas tag do projeto -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <div>    
-        <a href="./libras.html">
-            <button>Libras</button>
-        </a>
-        <a href="./portugues.html">
-            <button>Português</button>
-        </a>
-        </div>
-    <!--Imagens-->
-    <picture class="img">
-        <img src="./img/Libras2.png" alt="Img Libras">
-    </picture>
-   
-</body>
+        <title>My Libras App</title> 
+
+        <!-- fonte do projeto -->
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+        <!-- folhas de estilo do projeto -->
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="_css/menu.css">
+        <link rel="stylesheet" type="text/css" href="_css/botoes.css">
+              
+    </head>
+    <body>
+        <!-- container principal do site -->
+        <div class="container">
+
+            <!-- menu-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item" id="active"><a href="index.html" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="_pages/novidades.html" title="Novidades">Novidades</a></li>
+                    <li class="nav-item"><a href="_pages/instrucao.html" title="Instrução">Instrução</a></li>
+                    <li class="nav-item"><a href="_pages/contato.html" title="Contato">Contato</a></li>
+                    <li class="nav-item"><a href="_pages/suporte.html" title="Suporte">Suporte</a></li>
+                </ul>
+            </nav>
+            <!-- fim do menu-->
+
+            <!-- logo -->
+            <figure class="logo">
+                <img id="logo" src="_img/logo.png" alt="logo-libras">
+                <figcaption class="titulo">My Libras App</figcaption>
+            </figure><!-- fim logo -->
+            
+            <!-- seçao principal do home -->
+            <section id="principal">
+                <p>Olá, seja bem-vindo, aqui você pode escolher um dos dois idiomas abaixo para traduzir</p>  
+            </section><!-- fim seçao principal do home -->
+
+            <!-- botões de acesso -->
+            <div class="botoes">
+                <a href="_pages/libras.html"><button type="text" class="principal-button">Libras</button></a>
+                <a href="_pages/portugues.html"><button type="text" class="principal-button">Portugues</button></a>
+            </div> <!-- fim botões de acesso -->
+        </div><!-- fim container principal do site -->
+
+        <!-- script do site -->
+        <script src="_js/menuresponsivo.js"></script>
+    </body>
 </html>
